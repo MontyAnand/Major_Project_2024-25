@@ -1,0 +1,26 @@
+table ip nat {
+    chain wg_prerouting {
+        type nat hook prerouting priority 0; policy accept;
+    }
+
+    chain wg_postrouting {
+        type nat hook postrouting priority 100; policy accept;
+
+        # Apply NAT (Masquerade) on enp0s9 (public interface)
+        oifname "enp0s9" masquerade
+    }
+}
+
+
+table ip filter {
+    chain wg_forward {
+        type filter hook forward priority 0; policy drop;
+
+        # Allow traffic from enp0s8 to enp0s9 (forward)
+        iifname "wg0" oifname "enp0s9" accept
+
+        # Allow traffic from enp0s9 to enp0s8 for established,related connections (return traffic)
+        iifname "enp0s9" oifname "wg0" ct state established,related accept
+    }
+}
+

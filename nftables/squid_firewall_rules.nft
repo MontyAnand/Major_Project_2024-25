@@ -1,0 +1,9 @@
+table ip squid_nat {
+    chain prerouting {
+        type nat hook prerouting priority -100; policy accept;
+
+        # Redirect HTTP traffic from the private network to Squid proxy (port 3128)
+        iif "enp0s8" tcp dport 80 redirect to 3128
+    }
+}
+
