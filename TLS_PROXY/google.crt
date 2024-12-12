@@ -1,0 +1,89 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            a0:73:f7:c7:28:69:6a:57:ae:60:af:ca:c6:43:de:c7
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=UTM_CA
+        Validity
+            Not Before: Dec  9 13:26:25 2024 GMT
+            Not After : Mar 14 13:26:25 2027 GMT
+        Subject: C=IN, ST=WestBengal, L=Kolkata, O=Google, OU=Google, CN=www.google.com/emailAddress=vk2818970@gmail.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:ca:45:b8:97:9a:07:57:81:2d:88:04:a6:3b:00:
+                    cd:1b:1e:53:ab:73:7b:e4:0c:7f:2a:ca:28:3b:b7:
+                    62:bd:a9:91:0a:2d:e6:9f:14:e8:36:1c:15:d6:d0:
+                    85:4c:db:83:fe:94:32:f9:83:96:84:45:39:05:db:
+                    b7:90:db:b4:fd:67:a0:ca:09:9f:1f:ae:92:90:83:
+                    fb:d3:c3:ef:d7:23:60:5e:85:87:dc:7b:de:71:09:
+                    84:3d:8e:81:dd:0a:c9:45:16:d7:19:64:5a:ee:4c:
+                    f8:39:d1:ac:83:75:ec:54:3d:b3:2c:c9:a6:d1:c7:
+                    f5:b8:04:f8:2b:23:0a:11:09:cc:f0:38:08:d2:1c:
+                    b7:f5:71:fa:cb:94:45:50:63:71:c3:32:ec:53:64:
+                    43:fd:2d:e1:a4:58:6e:b4:a8:0d:d7:1b:e6:9f:6c:
+                    c0:4a:e2:15:39:ce:64:0d:ee:2a:c6:0b:31:d7:22:
+                    f8:d0:4d:1d:ac:18:2d:15:ed:28:7d:d6:45:09:2a:
+                    64:37:14:4d:c0:ea:94:db:04:09:64:56:d6:8c:9c:
+                    c0:72:dc:fe:03:0e:95:e5:74:d2:a0:05:d0:c7:b6:
+                    c5:e0:58:74:d2:32:4f:56:1c:d6:31:1a:ff:c3:3e:
+                    91:fc:9d:b4:91:dd:11:ce:f9:96:9c:e0:b8:8d:3f:
+                    42:79
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                B3:1F:F9:A9:3B:7A:A0:52:CD:81:AE:AE:7F:87:7D:61:5B:48:74:EA
+            X509v3 Authority Key Identifier: 
+                keyid:25:8A:1B:46:74:71:55:94:F0:61:C8:56:77:4D:72:7F:3F:8D:69:7E
+                DirName:/CN=UTM_CA
+                serial:13:8D:A3:58:82:09:4A:9D:FE:1C:99:4C:90:5F:B5:8C:9A:3B:6D:EF
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:www.google.com
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        28:9d:1a:3a:cd:e7:73:88:af:0f:0e:dc:26:0c:1a:2a:40:84:
+        0d:44:e1:1d:5d:5a:ed:05:64:8e:62:d0:29:3d:0d:a4:c4:75:
+        16:8e:97:52:83:63:17:63:86:e2:3f:cf:76:bc:f1:01:46:9f:
+        da:ce:9c:0c:2d:16:03:23:5d:a1:e1:54:1a:18:16:34:85:ea:
+        16:8f:1a:ec:b8:a2:3e:fd:dc:ef:fe:be:5c:42:07:59:c9:1b:
+        be:1b:86:d8:2a:90:42:13:08:cf:6a:55:67:3a:32:1f:ad:64:
+        a3:e6:82:4d:d3:ee:1d:dc:43:84:27:94:7b:2c:83:31:9e:7e:
+        b0:d3:d4:24:e2:82:8c:dd:38:82:02:1d:dd:c1:bd:8e:d2:e3:
+        86:1c:73:9a:dd:10:14:57:1a:20:83:9c:3d:20:c0:0c:36:33:
+        93:6a:91:a9:11:21:e1:be:d7:fc:4d:03:f8:82:56:47:a0:be:
+        a5:9d:e4:08:ba:86:08:85:8b:ff:f0:b4:aa:d7:a3:7e:99:88:
+        11:0a:71:42:3d:bf:e1:e8:93:90:7a:5f:ad:86:25:0e:c9:f6:
+        f4:4a:aa:6e:6b:d3:d0:ef:ae:62:2b:52:d8:3a:2e:cb:43:fc:
+        52:a2:57:70:11:73:9f:74:46:d5:4f:e4:c5:88:e1:df:b4:41:
+        1c:0f:50:86
+-----BEGIN CERTIFICATE-----
+MIID6TCCAtGgAwIBAgIRAKBz98coaWpXrmCvysZD3scwDQYJKoZIhvcNAQELBQAw
+ETEPMA0GA1UEAwwGVVRNX0NBMB4XDTI0MTIwOTEzMjYyNVoXDTI3MDMxNDEzMjYy
+NVowgZMxCzAJBgNVBAYTAklOMRMwEQYDVQQIDApXZXN0QmVuZ2FsMRAwDgYDVQQH
+DAdLb2xrYXRhMQ8wDQYDVQQKDAZHb29nbGUxDzANBgNVBAsMBkdvb2dsZTEXMBUG
+A1UEAwwOd3d3Lmdvb2dsZS5jb20xIjAgBgkqhkiG9w0BCQEWE3ZrMjgxODk3MEBn
+bWFpbC5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKRbiXmgdX
+gS2IBKY7AM0bHlOrc3vkDH8qyig7t2K9qZEKLeafFOg2HBXW0IVM24P+lDL5g5aE
+RTkF27eQ27T9Z6DKCZ8frpKQg/vTw+/XI2BehYfce95xCYQ9joHdCslFFtcZZFru
+TPg50ayDdexUPbMsyabRx/W4BPgrIwoRCczwOAjSHLf1cfrLlEVQY3HDMuxTZEP9
+LeGkWG60qA3XG+afbMBK4hU5zmQN7irGCzHXIvjQTR2sGC0V7Sh91kUJKmQ3FE3A
+6pTbBAlkVtaMnMBy3P4DDpXldNKgBdDHtsXgWHTSMk9WHNYxGv/DPpH8nbSR3RHO
++Zac4LiNP0J5AgMBAAGjgbgwgbUwCQYDVR0TBAIwADAdBgNVHQ4EFgQUsx/5qTt6
+oFLNga6uf4d9YVtIdOowTAYDVR0jBEUwQ4AUJYobRnRxVZTwYchWd01yfz+NaX6h
+FaQTMBExDzANBgNVBAMMBlVUTV9DQYIUE42jWIIJSp3+HJlMkF+1jJo7be8wEwYD
+VR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMBkGA1UdEQQSMBCCDnd3dy5n
+b29nbGUuY29tMA0GCSqGSIb3DQEBCwUAA4IBAQAonRo6zedziK8PDtwmDBoqQIQN
+ROEdXVrtBWSOYtApPQ2kxHUWjpdSg2MXY4biP892vPEBRp/azpwMLRYDI12h4VQa
+GBY0heoWjxrsuKI+/dzv/r5cQgdZyRu+G4bYKpBCEwjPalVnOjIfrWSj5oJN0+4d
+3EOEJ5R7LIMxnn6w09Qk4oKM3TiCAh3dwb2O0uOGHHOa3RAUVxogg5w9IMAMNjOT
+apGpESHhvtf8TQP4glZHoL6lneQIuoYIhYv/8LSq16N+mYgRCnFCPb/h6JOQel+t
+hiUOyfb0Sqpua9PQ765iK1LYOi7LQ/xSoldwEXOfdEbVT+TFiOHftEEcD1CG
+-----END CERTIFICATE-----

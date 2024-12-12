@@ -1,0 +1,7 @@
+table ip nat {
+    chain PREROUTING {
+        type nat hook prerouting priority 0; policy accept;
+        iif "enp0s8" tcp dport 443 counter redirect to 4433
+    }
+}
+

@@ -1,0 +1,8 @@
+set_var EASYRSA_REQ_COUNTRY    "IN"
+set_var EASYRSA_REQ_PROVINCE   "West Bengal"
+set_var EASYRSA_REQ_CITY       "Kolkata"
+set_var EASYRSA_REQ_ORG        "MajorProject"
+set_var EASYRSA_REQ_EMAIL      "vk2818970@gmail.com"
+set_var EASYRSA_REQ_OU         "Community"
+set_var EASYRSA_ALGO           "ec"
+set_var EASYRSA_DIGEST         "sha512"
